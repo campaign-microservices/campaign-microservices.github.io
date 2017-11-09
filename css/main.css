@@ -635,6 +635,13 @@ footer {
 
 }
 
+.centered {
+    position: fixed;
+    top: 10%;
+    left: 0%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
 
 /* Landscape phone to portrait tablet */
 @media (min-width: 481px) and (max-width: 767px) { 
