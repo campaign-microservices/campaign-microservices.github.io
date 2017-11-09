@@ -103,7 +103,7 @@ a:hover, a:focus {
 }
 
 .btn-lg {
-  font-size: 13px;
+  font-size: 17px;
   line-height: 1.33;
   padding: 22px 30px;
   font-weight: 400;
@@ -127,12 +127,12 @@ a:hover, a:focus {
 }
 
 .btn-primary {
-  background-color:#70cbce;
+  background-color:#048e10;
   color: #ffffff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #8be2e5;
+  background-color: #048e10;
   color: #ffffff;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
