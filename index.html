@@ -50,10 +50,10 @@
           
         </div>
         
-        <div class="row header-info centered">
+        <div class="row header-info centered" data-wow-delay="0.5s">
           <div class="col-sm-10 col-sm-offset-1 text-center">
-            <h1 class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">Do you want to start<br> 
-implementing <font color="lightgreen" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">Microservices</font><br>
+            <h1 class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;" data-wow-delay="0.5s">Do you want to start<br> 
+implementing <font color="lightgreen" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;" data-wow-delay="0.5s">Microservices</font><br>
     in your projects?</h1>
             <br>
             
@@ -69,16 +69,41 @@ implementing <font color="lightgreen" class="wow fadeIn" style="visibility: visi
 <br>
     
 <p class="lead wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;"><font color="white" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;"><b>Give the first step, improve your career</b></font>!<br></p>
-    
 
-<input type="email" class="form-control wow lead fadeIn" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeIn;" id="exampleInputEmail1" placeholder="Enter Email" autofocus="true"><br>
-    
+<!-- Signup Form -->
+<div id="mailchimp">
+  <form action="https://twitter.us16.list-manage.com/subscribe/post?u=44e88b8cf908722d1d81a0f9a&amp;id=418690f2d1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
 
-    
-<a href="#invite" class="btn btn-primary btn-lg scroll wow  lead fadeIn" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeIn;"><b>I want to Learn Microservices</b></a>
+    <div id="mce-responses" class="clear">
+      <div class="response" id="mce-error-response" style="display:none"></div>
+      <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+    <!-- EMAIL -->
+    <input 
+      type="email" 
+      name="EMAIL" 
+      id="mce-EMAIL" 
+      class="form-control wow lead fadeIn required email" 
+      data-wow-delay="1.4s" 
+      style="visibility: visible; animation-delay: 0.9s; animation-name: fadeIn;" 
+      placeholder="Enter E-mail here"
+      onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/><br>
+
+      <div class="clear">
+        <input 
+            type="submit" 
+            id="mc-embedded-subscribe" 
+            value="I WANT TO LEARN MICROSERVICES" 
+            name="subscribe" 
+            class="btn btn-primary btn-lg wow lead fadeIn" 
+            data-wow-delay="1.4s" 
+            style="visibility: visible; animation-delay: 0.9s; animation-name: fadeIn;">
+      </div>
+  </form>
+</div>
+
     <div class="row">
-    
-                  
                   <div class="col-xs-6 text-center wow fadeInUp" data-wow-delay="1.4s" style="visibility: visible; animation-delay: 1.4s; animation-name: fadeInUp;">
                     
                   </div>
@@ -90,23 +115,6 @@ implementing <font color="lightgreen" class="wow fadeIn" style="visibility: visi
         </div>
       </div>
     </header>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     <footer>
       <div class="container">
@@ -139,7 +147,8 @@ implementing <font color="lightgreen" class="wow fadeIn" style="visibility: visi
     <script src="js/wow.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-
-   
+    <script>
+        document.forms['mc-embedded-subscribe-form'].EMAIL.focus();
+    </script>
     
 </body></html>
